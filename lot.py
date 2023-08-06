@@ -27,9 +27,5 @@ while True:
  else:
     print(a,"is a loser")
     print("")
- print("c = continue\nx = exit")
- x=input("Type c or x ==> ")
- if x=="c":
-     subprocess.run("cls",shell=True)
- else:
-     break
+ input("Press enter to continue...")
+ subprocess.run("cls",shell=True)
